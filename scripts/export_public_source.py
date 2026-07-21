@@ -57,6 +57,8 @@ def _git_output(source_root: Path, *args: str) -> bytes:
 
 def _exclusion_reason(path: PurePosixPath, content: bytes) -> str | None:
     normalized = path.as_posix()
+    if normalized == MANIFEST_NAME:
+        return "generated_manifest"
     if normalized in PRIVATE_PATHS or normalized.startswith(PRIVATE_PREFIXES):
         return "private_documentation"
     name = path.name.casefold()

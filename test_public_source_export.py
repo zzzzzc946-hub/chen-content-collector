@@ -33,11 +33,13 @@ class PublicSourceExportTests(unittest.TestCase):
             exporter.export_public_source(ROOT, archive_path, ref="HEAD")
 
             with tarfile.open(archive_path, "r:gz") as archive:
-                names = set(archive.getnames())
+                archive_names = archive.getnames()
+                names = set(archive_names)
 
         self.assertIn("docs/INSTALL_AND_HANDOFF_ZH.md", names)
         self.assertIn("docs/AGENT_GUIDED_SETUP_ZH.md", names)
         self.assertIn("docs/INDEPENDENT_CLOUD_DEPLOYMENT_ZH.md", names)
+        self.assertEqual(archive_names.count("PUBLIC-SOURCE-MANIFEST.json"), 1)
         self.assertNotIn("config.json", names)
 
     def test_export_excludes_private_paths_and_personal_path_content(self) -> None:
