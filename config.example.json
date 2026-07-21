@@ -1,0 +1,13 @@
+{
+  "feishu": {
+    "app_id": "cli_xxxxxxxx",
+    "app_secret": "your_app_secret",
+    "app_token": "appXXXXXXXX",
+    "table_id": "tblXXXXXXXX",
+    "mobile_inbox_table_id": "tblXXXXXXXX"
+  },
+  "mobile_inbox": {
+    "enabled": true,
+    "poll_interval": 10
+  }
+}

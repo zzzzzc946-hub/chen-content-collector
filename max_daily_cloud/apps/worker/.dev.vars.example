@@ -1,0 +1,16 @@
+# Local-only placeholders. Keep real values in an untracked .dev.vars file.
+# Production media uses only the private Supabase Storage bucket below.
+APP_ORIGIN=https://YOUR-PAGES-DOMAIN
+FEISHU_APP_ID=YOUR_FEISHU_APP_ID
+FEISHU_APP_SECRET=YOUR_FEISHU_APP_SECRET
+FEISHU_APP_TOKEN=YOUR_FEISHU_APP_TOKEN
+FEISHU_MOBILE_INBOX_TABLE_ID=YOUR_FEISHU_MOBILE_INBOX_TABLE_ID
+MEDIA_SESSION_SECRET=generate-a-long-random-secret
+OWNER_EMAIL=chen@example.com
+PUBLISHER_TOKEN_PEPPER=generate-a-long-random-secret
+SHARE_COOKIE_SECRET=generate-a-long-random-secret
+SUPABASE_ANON_KEY=YOUR_SUPABASE_ANON_KEY
+SUPABASE_SERVICE_ROLE_KEY=YOUR_SUPABASE_SERVICE_ROLE_KEY
+# This must name the private production bucket; do not configure R2 or NAS media.
+SUPABASE_STORAGE_BUCKET=max-daily-media
+SUPABASE_URL=https://YOUR-PROJECT.supabase.co

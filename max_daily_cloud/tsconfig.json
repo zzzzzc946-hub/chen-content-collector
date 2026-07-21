@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "noEmit": true
+  },
+  "include": [
+    "packages/shared/src/contracts.ts",
+    "apps/worker/src/**/*.ts"
+  ]
+}

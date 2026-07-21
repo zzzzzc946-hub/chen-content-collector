@@ -1,0 +1,15 @@
+{
+  "name": "CHEN 链接收集箱",
+  "short_name": "CHEN 收集",
+  "start_url": "/collect",
+  "display": "standalone",
+  "background_color": "#0b1118",
+  "theme_color": "#f29332",
+  "icons": [
+    {
+      "src": "/mobile-inbox-icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

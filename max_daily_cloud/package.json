@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "vitest run --exclude e2e/**",
+    "typecheck": "tsc -p tsconfig.json --pretty false && tsc -p apps/web/tsconfig.json --pretty false",
+    "test:e2e": "playwright test"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.5.4",
+    "@playwright/test": "^1.54.0",
+    "typescript": "^5.8.0",
+    "vitest": "^3.2.0",
+    "wrangler": "^4.110.0"
+  }
+}

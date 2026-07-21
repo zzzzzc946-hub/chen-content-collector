@@ -1,0 +1,9 @@
+{
+  "local_api_base": "http://127.0.0.1:51216",
+  "cloud_api_base": "https://YOUR-WORKER-DOMAIN.workers.dev",
+  "nas_media_root": "/path/to/daily-videos",
+  "state_path": ".publisher-state/state.json",
+  "keychain_service": "MAX Daily Cloud Publisher",
+  "keychain_account": "publisher-device-token",
+  "fixed_link_keychain_service": "MAX Daily Fixed Collaboration Link"
+}

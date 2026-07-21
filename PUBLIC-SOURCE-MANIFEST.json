@@ -1,0 +1,240 @@
+{
+  "format": 1,
+  "commit": "b18e71c5e99d82558fc433faaf797986c2a0169b",
+  "included_count": 174,
+  "excluded_count": 58,
+  "excluded": [
+    {
+      "path": ".superpowers/sdd/task-2-report.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": ".superpowers/sdd/task-4-report.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": ".superpowers/sdd/task-5-report.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": ".superpowers/sdd/task-6-report.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": ".superpowers/sdd/task-7-report.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "AGENTS.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/project/01-architecture.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/project/02-local-collector.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/project/03-desktop-runtime.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/project/04-cloud-daily.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/project/05-data-media-lifecycle.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/project/06-security-and-secrets.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/project/07-testing-release-recovery.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/project/08-feature-status.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/project/README.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-07-10-max-daily-cloud-collaboration.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-07-11-supabase-storage-media.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-07-12-current-day-video-integration.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-07-13-canonical-release-and-recovery.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-07-13-max-daily-phase-one-mvp.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-07-13-otp-send-feedback.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-07-13-video-download-settings-and-queue.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-07-14-desktop-app-service-host.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-07-14-fixed-collaboration-portal.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-07-14-max-daily-cloud-toolbar.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-07-14-max-daily-cloud-visual-parity.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-07-14-modular-reusable-skills.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-07-14-native-video-and-external-links.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-07-14-project-closure-documentation.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-07-14-supabase-free-media-proxy.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-07-14-supabase-media-size-limit.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-07-15-cloud-workbench-only.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-07-15-mobile-daily-reading-flow.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-07-17-mobile-link-inbox.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-07-20-universal-dmg-installer.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-07-21-public-install-handoff.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-07-10-max-daily-cloud-collaboration-design.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-07-11-supabase-storage-media-design.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-07-12-supabase-current-day-video-design.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-07-13-canonical-release-and-recovery-design.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-07-13-max-daily-mvp-design.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-07-13-max-daily-portal-design.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-07-13-otp-send-feedback-design.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-07-13-video-download-settings-and-progress-design.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-07-14-desktop-app-service-host-design.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-07-14-max-daily-cloud-toolbar-design.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-07-14-max-daily-cloud-visual-parity-design.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-07-14-native-video-and-external-links-design.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-07-14-project-closure-fixed-collaboration-design.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-07-14-supabase-free-media-proxy-design.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-07-14-supabase-media-size-limit-design.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-07-15-cloud-workbench-only-design.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-07-15-mobile-daily-reading-flow-design.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-07-17-mobile-link-inbox-design.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-07-20-universal-dmg-installer-design.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-07-21-public-install-handoff-design.md",
+      "reason": "private_documentation"
+    },
+    {
+      "path": "max_daily_cloud/README.md",
+      "reason": "personal_absolute_path"
+    },
+    {
+      "path": "test_build_dmg.py",
+      "reason": "personal_absolute_path"
+    }
+  ]
+}

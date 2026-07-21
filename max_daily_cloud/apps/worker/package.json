@@ -1,0 +1,8 @@
+{
+  "name": "@max-daily-cloud/worker",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "hono": "^4.12.28"
+  }
+}

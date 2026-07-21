@@ -1,0 +1,58 @@
+project_id = "max-daily-cloud"
+
+[api]
+enabled = true
+port = 54321
+schemas = ["public", "graphql_public"]
+extra_search_path = ["public", "extensions"]
+max_rows = 1000
+
+[db]
+port = 54322
+shadow_port = 54320
+major_version = 15
+
+[db.migrations]
+enabled = true
+
+[db.seed]
+enabled = false
+
+[studio]
+enabled = true
+port = 54323
+
+[auth]
+enabled = true
+site_url = "https://max-daily-cloud-worker.1643434181.workers.dev"
+additional_redirect_urls = ["https://max-daily-cloud-worker.1643434181.workers.dev/**"]
+jwt_expiry = 3600
+enable_signup = true
+
+[auth.email]
+enable_confirmations = true
+max_frequency = "1m"
+otp_length = 8
+
+[auth.email.smtp]
+enabled = true
+host = "smtp.qq.com"
+port = 587
+user = "1643434181@qq.com"
+pass = "env(QQ_SMTP_AUTH_CODE)"
+admin_email = "1643434181@qq.com"
+sender_name = "MAX DAILY INTEL"
+
+[auth.email.template.magic_link]
+subject = "MAX 日报登录验证码"
+content_path = "./supabase/templates/magic_link.html"
+
+[auth.rate_limit]
+email_sent = 30
+
+[auth.mfa.totp]
+enroll_enabled = true
+verify_enabled = true
+
+[storage.vector]
+enabled = false
