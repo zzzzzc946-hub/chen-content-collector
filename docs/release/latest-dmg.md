@@ -10,7 +10,7 @@
 
 每个稳定 Release 必须同时上传以下同一 commit 生成的资产：
 
-1. `CHEN-内容采集助手-<version>-universal.dmg`
+1. `chen-content-collector-<version>-universal.dmg`
 2. 同名 `.dmg.sha256`
 3. 同版本 build manifest JSON
 4. `chen-content-collector-public-source-<version>.tar.gz`
